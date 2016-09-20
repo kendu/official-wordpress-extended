@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM kendu/php-base
 
 RUN a2enmod rewrite expires
 
